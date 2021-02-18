@@ -1,0 +1,12 @@
+﻿@model IEnumerable<ShopApp.Entities.Product>
+@{ 
+    Layout = null;
+
+}
+
+
+
+@foreach (var x in Model)
+{
+    <p>@x.Name</p>
+}
